@@ -4,6 +4,7 @@
 # .tfstate files
 *.tfstate
 *.tfstate.*
+tfplan*
 
 # Crash log files
 crash.log
@@ -42,3 +43,13 @@ terraform.rc
 # Optional: ignore plan files saved before destroying Terraform configuration
 # Uncomment the line below if you want to ignore planout files.
 # planout
+
+
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+.terraform.*
+
+.env
